@@ -180,7 +180,7 @@ export default function Navbar() {
 });
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: 'flex', width:'100%' }}>
       <CssBaseline />
       <AppBar position="fixed" open={open} style={{background:'black'}}>
         <Toolbar>

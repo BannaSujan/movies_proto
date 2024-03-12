@@ -16,3 +16,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.movieCards {
+  background: #F9FCFF;
+  opacity: 1;
+}
+
+.movieCards:hover {
+  opacity: 0.75;
+  height: 600;
+}

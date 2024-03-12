@@ -5,6 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import '../App.css'
 
 export default function MovieCard(props) {
 
@@ -17,7 +18,7 @@ export default function MovieCard(props) {
 
     const imageUrl = (checkMovie())? "https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg?auto=compress&cs=tinysrgb&w=800" : "https://images.pexels.com/photos/6976094/pexels-photo-6976094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   return (
-    <Card sx={{ maxWidth: 245, height:425 }} md={{margin: 0}} id={props.show_id}>
+    <Card sx={{ maxWidth: 245, height:425 }} md={{margin: 0}} id={props.show_id} className='movieCards'>
       <CardMedia
         sx={{ height: 240 }}
         image = {imageUrl}
